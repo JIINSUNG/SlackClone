@@ -1,0 +1,16 @@
+@@@@@@@@@@ install @@@@@@@@@@@@
+1. npx create-react-app slack-clone --template redux
+2. npm install -g yarn
+3. yarn install react-router-dom
+
+
+@@@@@@@@@@@ etc @@@@@@@@@@@@@
+setup, logo, test 삭제 완료
+
+
+
+@@@@@@@@@@@@ extention @@@@@@@@@@@@
+1. react snippets
+2. prettier
+
+
