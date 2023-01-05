@@ -83,6 +83,6 @@ const ChatInputContainer = styled.div`
   }
 
   > form > button {
-    display: none; // 전송버튼을 감춤, 사용자가 엔터를 누르면 감춰진 버튼이 눌려져 메세지가 전송돔
+    display: none; // 전송버튼을 감춤, 사용자가 엔터를 누르면 감춰진 버튼이 눌려져 메세지가 전송됨
   }
 `;
