@@ -35,3 +35,7 @@
 # 배운내용 정리 
 ---
 ## [노션](https://abalone-dresser-75e.notion.site/Slack-Clone-2dcdf4572b15461d88b9e2eaf9c2f156)
+
+# 동작 영상
+---
+## [Youtube](https://youtu.be/LqXCjDqF650)
