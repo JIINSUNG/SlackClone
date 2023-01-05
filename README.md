@@ -1,46 +1,35 @@
-# Getting Started with Create React App and Redux
+# Slack Clone, coded by Jiinsung
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# 이 프로젝트에서 사용된 프레임워크, 툴, 익스텐션
+---
+* [Create React App](https://github.com/facebook/create-react-app)
+* [Redux](https://redux.js.org/) 
+* [Redux Toolkit](https://redux-toolkit.js.org/)
+* [JavaScript](https://developer.mozilla.org/ko/docs/Web/JavaScript)
+* [Firebase](https://firebase.google.com/)
+* [Material-ui](https://mui.com/)
+* [Styled-Component](https://styled-components.com/)
+* [React-Spinkit]
+* [Prettier](https://prettier.io/)
+* [ReactSnippets](https://www.npmjs.com/package/react-spinkit)
+---
 
-## Available Scripts
+# 이 프로젝트에서는... 
+---
+* Firebase를 이용한 로그인 인증 구현 (구글아이디 인증)
+* Firebase 데이터베이스를 이용한 채널, 채팅기능 구현
+* Reducer, Reducer Toolkit을 이용한 전역전 상태관리 
+* React-Spinkit을 이용한 자원 로딩 화면 구현
+* Styled-Component를 이용한 CSS 스타일링
+* Material-ui를 이용한 아이콘 배치
+* Firebase tool을 이용한 서비스 배포 (하단 체험하기에서 이용가능)
+---
 
-In the project directory, you can run:
+# 체험하기
+---
+## [SlackClone](https://slackclone-2cdcb.web.app) (Hosted by Firebase)
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 배운내용 정리 
+---
+## [SlackClone](notion링크)
