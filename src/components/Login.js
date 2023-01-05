@@ -1,7 +1,8 @@
 import React from "react";
-import styled from "styled-components";
 import { Button } from "@material-ui/core";
 import { auth, provider, signInWithPopup } from "../firebase";
+import styled from "styled-components";
+
 function Login() {
   const signIn = (e) => {
     e.preventDefault();
