@@ -15,26 +15,34 @@ function Chat() {
   const chatRef = useRef(null);
   const roomId = useSelector(selectRoomId);
   console.log(roomId);
+  
+  //데이터베이스에서 rooms컬렉션의 roomId 도큐먼트에서 문서를 가져옴
   const [roomDetails] = useDocument(
     roomId && doc(db, "rooms", roomId)
+    
+    // 구버전
     // db.collection("rooms").doc(roomId)
   );
+  
+  //rooms 컬렉션 => roomid도큐먼트 => messages 컬렉션의 데이터들을 가져오며, 시간순으로 오름차순정렬
   const [roomMessages, loading] = useCollection(
     roomDetails &&
       query(
         collection(doc(db, "rooms", roomId), "messages"),
         orderBy("timestamp", "asc")
       )
-
+    
+    // 구버전
     // db.collection('rooms').doc(roomId).collection('messages').orderBy('timestamp','ASC')
   );
 
+   // 자원이 모두 로드되면 가장 하단으로 부드럽게 스크롤링
   useEffect(() => {
     chatRef?.current?.scrollIntoView({
       behavior: "smooth",
     });
   }, [roomId, loading]);
-
+  
   console.log(roomDetails?.data());
   if (roomMessages) console.log(roomMessages);
   return (
