@@ -1,10 +1,10 @@
 import React from "react";
-import styled from "styled-components";
 import { db } from "../firebase";
 import { collection, addDoc } from "firebase/firestore";
 import { useCollection } from "react-firebase-hooks/firestore";
 import { useDispatch } from "react-redux";
 import { enterRoom } from "../features/counter/appSlice";
+import styled from "styled-components";
 
 function SidebarOption({ Icon, title, addChannelOption, id }) {
   const dispatch = useDispatch();
