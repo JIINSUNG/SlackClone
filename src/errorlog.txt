@@ -1,8 +1,8 @@
-최신버전에서 react-router-dom에서 Switch 태그가 사라짐, 
-Switch에서 Routes로 변경 
+@@@@@@ error content : Solution @@@@@@@
+
+1. React 최신버전 사용시 react-router-dom에서 Switch 태그 사라짐 => Solution : Switch태그 대신 Routes 태그로 대체
+2. Can't resolve '@material-ui/icons/ 에러
+=> yarn add @material-ui/icons@"*"
 
 
-#css
-
-overflow?
 

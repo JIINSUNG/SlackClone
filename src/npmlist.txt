@@ -2,15 +2,31 @@
 1. npx create-react-app slack-clone --template redux
 2. npm install -g yarn
 3. yarn install react-router-dom
+4. yarn add @material-ui/core
+5. yarn add styled-components (package.json, add resolution)
+  "resolutions": {
+    "styled-components" : "^5"
+  }
+6. yarn add @mui/icons-material
+7. yarn add firebase
+8. yarn add react-firebase-hooks
+9. yarn add react-spinkit
+10. npm install -g firebase-tools
 
-
-@@@@@@@@@@@ etc @@@@@@@@@@@@@
-setup, logo, test 삭제 완료
 
 
 
 @@@@@@@@@@@@ extention @@@@@@@@@@@@
-1. react snippets
+1. react snippets (using by rfce, tag.classname + tab)
 2. prettier
+3. vscode-styled-components
 
+
+@@@@@@@@@@ deploy @@@@@@@@@@@@@
+
+1. firebase login => 로그인 진행
+2. firebase init => hosting
+3. use an existing project => build
+4. npm run build
+5. firebase deploy 
 
