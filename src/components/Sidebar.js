@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import FiberManualRecordIcon from "@material-ui/icons/FiberManualRecord";
 import CreateIcon from "@material-ui/icons/Create";
 import SidebarOption from "./SidebarOption";
@@ -13,6 +12,7 @@ import FileCopyIcon from "@material-ui/icons/FileCopy";
 import ExpandLessIcon from "@material-ui/icons/ExpandLess";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import AddIcon from "@material-ui/icons/Add";
+import styled from "styled-components";
 import { useCollection } from "react-firebase-hooks/firestore";
 import { db } from "../firebase";
 import { collection, addDoc } from "firebase/firestore";
