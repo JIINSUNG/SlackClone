@@ -3,6 +3,6 @@ import appReducer from '../features/counter/appSlice';
 
 export const store = configureStore({
   reducer: {
-    app: appReducer,
+    app: appReducer, //리덕스 리듀서
   },
 });
