@@ -34,4 +34,4 @@
 
 # 배운내용 정리 
 ---
-## [SlackClone](notion링크)
+## [노션](notion링크)
