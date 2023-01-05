@@ -1,5 +1,4 @@
 import React from "react";
-// import { Counter } from './features/counter/Counter';
 import "./App.css";
 import Header from "./components/Header";
 import styled from "styled-components";
@@ -19,7 +18,7 @@ import {
 
 function App() {
   const [user, loading] = useAuthState(auth);
-
+  // 자원 로딩시, 브랜드로고 + 스핀화면 표시기능 구현
   if (loading) {
     return (
       <AppLoading>
@@ -36,11 +35,12 @@ function App() {
 
   return (
     <Router>
+    //사용자 정보가 있는지 확인후 없다면 로그인화면으로 있다면 화면 표시
       {!user ? (
         <Login />
       ) : (
         <>
-          <Header />
+          <Header /> 
           <AppBody>
             <Sidebar />
             <Routes>
@@ -58,10 +58,6 @@ function App() {
       )}
     </Router>
   );
-}
-
-function Home() {
-  return <h2>Home</h2>;
 }
 
 export default App;
