@@ -11,7 +11,7 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <Provider store={store}>
+    <Provider store={store}> //store = 리덕스 상태관리용 store
       <App />
     </Provider>
   </React.StrictMode>
