@@ -1,7 +1,7 @@
 @@@@@@@@@@ install @@@@@@@@@@@@
 1. npx create-react-app slack-clone --template redux
 2. npm install -g yarn
-3. yarn install react-router-dom
+3. yarn add react-router-dom
 4. yarn add @material-ui/core
 5. yarn add styled-components (package.json, add resolution)
   "resolutions": {
